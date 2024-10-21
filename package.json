@@ -1,6 +1,6 @@
 {
   "name": "react-app-by-akshita",
-  "homepage": "https://akshitaiyer.github.com/react-app-by-akshita",
+  "homepage": "https://akshitaiyer.github.io/experiment-9-SBL",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.7",
