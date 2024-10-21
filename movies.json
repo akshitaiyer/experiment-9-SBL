@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1",
+    "name": "Inception",
+    "desc": "A mind-bending thriller by Christopher Nolan.",
+    "stars": 5,
+    "price": 150
+  },
+  {
+    "_id": "2",
+    "name": "Interstellar",
+    "desc": "A space exploration movie by Christopher Nolan.",
+    "stars": 4,
+    "price": 120
+  },
+  {
+    "_id": "3",
+    "name": "The Dark Knight",
+    "desc": "A Batman movie directed by Christopher Nolan.",
+    "stars": 5,
+    "price": 100
+  },
+  {
+    "_id": "4",
+    "name": "The Matrix",
+    "desc": "A hacker discovers the nature of reality in this cyberpunk classic.",
+    "stars": 4,
+    "price": 130
+  },
+  {
+    "_id": "5",
+    "name": "Avatar",
+    "desc": "A visually stunning sci-fi epic set on the alien world of Pandora.",
+    "stars": 4,
+    "price": 140
+  },
+  {
+    "_id": "6",
+    "name": "Pulp Fiction",
+    "desc": "A crime film known for its nonlinear storyline and witty dialogues.",
+    "stars": 5,
+    "price": 110
+  }
+]
