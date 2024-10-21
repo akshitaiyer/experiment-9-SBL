@@ -27,7 +27,16 @@ function Home() {
     axios
       .get("http://localhost:5000/api/movies")
       .then((response) => setMovies(response.data))
-      .catch((error) => console.error("Error fetching movies:", error));
+      .catch((error) => {
+        console.error("Error fetching movies from API:", error);
+        // Fallback to local JSON file if API call fails
+        axios
+          .get("/movies.json") // Assuming the JSON file is in the public folder
+          .then((response) => setMovies(response.data))
+          .catch((error) =>
+            console.error("Error fetching movies from local JSON:", error)
+          );
+      });
   }, []);
 
   // Function to display stars based on the number of stars in the movie
