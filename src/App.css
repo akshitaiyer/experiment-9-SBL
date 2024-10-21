@@ -1,0 +1,52 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.hero {
+  background: url("/kk.jpg") center center/cover no-repeat;
+  height: 500px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.movie-card {
+  margin-bottom: 30px;
+}
+
+.movie-card img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.movie-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.movie-card-text {
+  color: #6c757d;
+}
+
+.star-rating {
+  font-size: 1.5rem;
+  color: #ffd700;
+  cursor: pointer;
+}
